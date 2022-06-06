@@ -10,6 +10,12 @@ Compound_model.h5
 - a file containing a deep neural network built in Keras library with Tensorflow backend
 - the network coresponds to the compound model from section "Inverse and compound model"
 
+Auxiliary_models folder
+- contains neural networks for evaluating the Fig. 2 (c): Dependence on the number of trainable parameters 
+
+Data_files folder
+- contains files required by corresponding jupyter notebooks
+
 Dataset_size_scaling.ipynb
 - a Jupyter Notebook for reproducting the Fig. 2 (a): The infidelity dependence on the number of samples in the training set
 - requires loading of the following files contained within "Data_files" folder:
