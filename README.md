@@ -1,6 +1,6 @@
 # Neural network modeling of polarization in liquid crystals
 
-This repository provides data and supplementary material to the paper **Bidirectional deep learning of polarization transfer in liquid crystals with application to quantum state preparation**, preprint: [arXiv:2109.12436](https://arxiv.org/abs/2109.12436), by Dominik Vašinka, Martin Bielak, Michal Neset, and Miroslav Ježek. Accepted for publication in Physical Review Applied.
+This repository provides data and supplementary material to the paper **Bidirectional deep learning of polarization transfer in liquid crystals with application to quantum state preparation**, [Physical Review Applied 17, 054042 (2022)](https://doi.org/10.1103/PhysRevApplied.17.054042), by Dominik Vašinka, Martin Bielak, Michal Neset, and Miroslav Ježek.
 
 Direct_model.h5
 - a file containing a deep neural network built in Keras library with Tensorflow backend
