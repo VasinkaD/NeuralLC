@@ -2,16 +2,12 @@
 
 This repository provides data and supplementary material to the paper **Bidirectional deep learning of polarization transfer in liquid crystals with application to quantum state preparation**, [Physical Review Applied 17, 054042 (2022)](https://doi.org/10.1103/PhysRevApplied.17.054042), by Dominik Vašinka, Martin Bielak, Michal Neset, and Miroslav Ježek.
 
-Direct_model.h5
-- a file containing a deep neural network built in Keras library with Tensorflow backend
-- the neural network coresponds to the direct model from section "Direct models and dataset-size scaling"
+Auxiliary_models folder
+- contains neural networks for evaluating the Fig. 2 (c): Dependence on the number of trainable parameters 
 
 Compound_model.h5
 - a file containing a deep neural network built in Keras library with Tensorflow backend
 - the network coresponds to the compound model from section "Inverse and compound model"
-
-Auxiliary_models folder
-- contains neural networks for evaluating the Fig. 2 (c): Dependence on the number of trainable parameters 
 
 Data_files folder
 - contains files required by corresponding jupyter notebooks
@@ -25,6 +21,10 @@ Dataset_size_scaling.ipynb
     - LI_all_fidelity_test_tensor_part_1.npy, LI_all_fidelity_test_tensor_part_2.npy
     - RBF_all_fidelity_val_tensor_part_1.npy, RBF_all_fidelity_val_tensor_part_2.npy
     - RBF_all_fidelity_test_tensor_part_1.npy, RBF_all_fidelity_test_tensor_part_2.npy
+
+Direct_model.h5
+- a file containing a deep neural network built in Keras library with Tensorflow backend
+- the neural network coresponds to the direct model from section "Direct models and dataset-size scaling"
 
 Evaluation_of_DNN.ipynb
 - a Jupyter Notebook for reproducing the infidelity results of direct and compound deep learning models
